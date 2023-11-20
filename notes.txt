@@ -39,11 +39,13 @@ lazy val root = (project in file("."))
 After using all this you should be ready to create the codebase for our rest api.
 
 3. Basic REST Api skeleton projectPermalink
-The image below shows the basic folder and package structure for our project. It is organized based on each layer of concern.
+The image below shows the basic folder and package structure for our project. It is organized
+based on each layer of concern.
 
 alt "Project structure"
 
-On each layer we define the data (models) and logic (managers, services) that can help us organize and follow the growth of our project and not get lost. This example is extremely simple but for the sake of completion we include all layers. As our project becomes more and more complex, these layers are becoming more useful. Below we will see each layer individually.
+On each layer we define the data (models) and logic (managers, services) that can help us organize and
+follow the growth of our project and not get lost. This example is extremely simple but for the sake of completion we include all layers. As our project becomes more and more complex, these layers are becoming more useful. Below we will see each layer individually.
 
 3.1 PersistencePermalink
 It is the layer where we define the basic persistence entities and persistence methods. We could use any method that we want, be a database, in memory, a file, should be defined and handled on this layer.
